@@ -1,0 +1,238 @@
+Board Information Report
+Filename     : D:\Documents and Settings\Administrator\Desktop\Telemetria GPRS Bluetoot MP V1_0 Rev1\TEL-GPRS-BT-V1_0 Rev1.PcbDoc
+Date         : 03/21/2018
+Time         : 11:34:27
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 117.3012mmx79.6393mm
+    Components on board, 129
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 341
+    Connections routed, 341
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 338, 0, 680, 3, 0, 428, 0
+    Bottom Layer, 0, 157, 0, 514, 0, 0, 388, 0
+    Mechanical 1, 0, 0, 0, 0, 0, 0, 0, 116
+    Mechanical 3, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 4, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 5, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 6, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 7, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 8, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 9, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 10, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 11, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 12, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 13, 2, 0, 0, 24, 0, 0, 0, 0
+    Mechanical 14, 0, 0, 0, 0, 0, 0, 0, 0
+    Mechanical 15, 0, 0, 0, 30, 0, 0, 0, 0
+    Mechanical 16, 0, 0, 0, 0, 0, 0, 0, 0
+    Multi-Layer, 0, 44, 161, 0, 0, 0, 1, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Overlay, 35, 1, 0, 1646, 162, 0, 0, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Overlay, 10, 0, 0, 390, 128, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 0, 0, 0, 0, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 12, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 27
+
+Layer Pairs, Vias
+    Top Layer - Bottom Layer, 161
+count : 1
+
+Non-Plated Hole Size, Pads, Vias
+    0mm, 12, 0
+    1.1mm, 1, 0
+    1.6mm, 1, 0
+    3mm, 4, 0
+count : 4
+
+Plated Hole Size, Pads, Vias
+    0mm, 484, 0
+    0.25mm, 0, 159
+    0.3mm, 9, 0
+    0.4mm, 0, 2
+    0.7mm, 6, 0
+    1mm, 6, 0
+    1.2mm, 4, 0
+    1.3mm, 10, 0
+    1.7mm, 1, 0
+    2.6mm, 2, 0
+count : 10
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    0mm, 4
+    0.25mm, 153
+    0.3mm, 9
+    0.4mm, 3
+    0.45mm, 5
+    0.5mm, 4
+    0.55mm, 1
+    0.6mm, 6
+    0.8mm, 2
+    0.9mm, 10
+    1mm, 4
+    1.3mm, 2
+    3.2mm, 2
+count : 13
+
+Mid Layer Annular Ring Size, Count
+    0mm, 4
+    0.25mm, 153
+    0.3mm, 9
+    0.4mm, 3
+    0.45mm, 5
+    0.5mm, 4
+    0.55mm, 1
+    0.6mm, 6
+    0.8mm, 2
+    0.9mm, 10
+    1mm, 4
+    1.3mm, 2
+    3.2mm, 2
+count : 13
+
+Bottom Layer Annular Ring Size, Count
+    0mm, 4
+    0.25mm, 153
+    0.3mm, 9
+    0.4mm, 3
+    0.45mm, 5
+    0.5mm, 4
+    0.55mm, 1
+    0.6mm, 6
+    0.8mm, 2
+    0.9mm, 10
+    1mm, 4
+    1.3mm, 2
+    3.2mm, 2
+count : 13
+
+Pad Solder Mask, Count
+    0mm, 540
+count : 1
+
+Pad Paste Mask, Count
+    0mm, 540
+count : 1
+
+Pad Pwr/Gnd Expansion, Count
+    0.508mm, 540
+count : 1
+
+Pad Relief Conductor Width, Count
+    0.254mm, 540
+count : 1
+
+Pad Relief Air Gap, Count
+    0.254mm, 540
+count : 1
+
+Pad Relief Entries, Count
+    4, 540
+count : 1
+
+Via Solder Mask, Count
+    0mm, 161
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    0.508mm, 161
+count : 1
+
+Track Width, Count
+    0.0254mm, 1317
+    0.05mm, 4
+    0.1mm, 46
+    0.127mm, 25
+    0.2mm, 121
+    0.254mm, 84
+    0.27mm, 935
+    0.3mm, 34
+    0.3048mm, 460
+    0.4mm, 135
+    0.5mm, 74
+    0.7mm, 27
+    1mm, 34
+count : 13
+
+Arc Line Width, Count
+    0.1mm, 2
+    0.127mm, 4
+    0.2mm, 7
+    0.25mm, 9
+    0.254mm, 21
+    0.32mm, 1
+    0.6mm, 3
+count : 7
+
+Arc Radius, Count
+    0.125mm, 9
+    0.127mm, 6
+    0.15mm, 1
+    0.1625mm, 1
+    0.25mm, 5
+    0.3mm, 3
+    0.3175mm, 2
+    0.5mm, 2
+    0.5041mm, 1
+    0.762mm, 1
+    0.8mm, 5
+    3mm, 8
+    4mm, 1
+    6.5mm, 2
+count : 14
+
+Arc Degrees, Count
+    90, 4
+    180, 6
+    360, 37
+count : 3
+
+Text Height, Count
+    0.5mm, 15
+    0.7mm, 252
+    0.8mm, 3
+    1.5mm, 16
+    1.524mm, 6
+    1.7mm, 1
+count : 6
+
+Text Width, Count
+    0.12mm, 10
+    0.125mm, 1
+    0.14mm, 1
+    0.15mm, 252
+    0.2mm, 23
+    0.254mm, 6
+count : 6
+
+Net Track Width, Count
+    1916.2949mm, 107
+count : 1
+
+Net Via Size, Count
+    0.5mm, 107
+count : 1

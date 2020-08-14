@@ -1,0 +1,181 @@
+// Example :: BleVSpUartBridge.sb
+// https://github.com/LairdCP/BL652-Applications/tree/master/UserGuideExamples
+DIM conHndl
+DIM flagUART
+DIM strLengthRx
+DIM strDeviceName$
+//BLE EVENT MSG IDs
+#define BLE_EVBLEMSGID_CONNECT                        0  //msgCtx = connection handle
+#define BLE_EVBLEMSGID_DISCONNECT                     1  //msgCtx = connection handle
+
+#define DeviceName	"BT-Hidronica"
+#define commandIDTel "HRID;2701150000;18\r\n"
+#define timeOutNoEventData 180000 // 3 minutes
+
+//==============================================================================
+// Start connectable advertising
+//==============================================================================
+Sub StartAdvertising()
+
+	DIM rc, addr$:addr$=""
+	
+    rc=BleAdvertStart(0,addr$,20,0,0)
+   
+EndSub
+//==============================================================================
+// Open VSp and start advertising
+//==============================================================================
+SUB OnStartup()
+ DIM rc, hndl, tx$, scRpt$, addr$, adRpt$,dn$
+ 
+ rc=GpioSetFunc(11,2,1) // GPIO 11 as digital out and initial status on "1"
+ 
+ 
+ IF !flagUART THEN
+ 	UartClose()
+	rc=UartOpen(115200,0,0,"CN81H")
+	IF !rc THEN
+	
+		GPIOWRITE(11,0)	// Writes "0" on port GPIO 11
+		strDeviceName$=commandIDTel
+		TimerStart(1,2000,0) //Allow enough time for data to reach rx buffer
+	ELSE
+		PRINT "\nError trying open Port"
+
+	ENDIF
+ 
+ ELSE
+ 	
+ 	GPIOWRITE(11,1)	// Writes "1" on port GPIO 11
+  
+ 	rc=BleVSpOpen(0,0,0,hndl)
+ 
+ 	rc=BleAdvRptInit(adRpt$, 2, 0, 0)
+ 	rc=BleScanRptInit(scRpt$)
+ 	rc=BleAdvRptAddUuid128(adRpt$,hndl)
+ 	//rc=BleAdvRptAddUuid128(scRpt$,hndl)
+ 	dn$=strDeviceName$
+ 	rc=BleAdvRptAppendAD(scRpt$,0x09,dn$)
+ 	rc=BleAdvRptsCommit(adRpt$,scRpt$)
+
+ 	StartAdvertising()
+
+ ENDIF
+ENDSUB
+
+//==============================================================================
+// Close connections so that we can run another app without problems
+//==============================================================================
+SUB CloseConnections()
+ DIM rc
+ rc=BleDisconnect(conHndl)
+ rc=BleAdvertStop()
+ BleVspClose()
+ENDSUB
+//==============================================================================
+// BLE event handler - connection handle is obtained here
+//==============================================================================
+FUNCTION HndlrBleMsg(BYVAL nMsgId, BYVAL nCtx)
+
+	conHndl=nCtx
+	select(nMsgId)
+        case BLE_EVBLEMSGID_CONNECT
+           GPIOWRITE(11,0)	// Writes "0" on port GPIO 11 (Module in use with external device)
+           TimerStart(2,timeOutNoEventData,0) //Allow 5 minutes time for wait for comms if over then break the connection
+            
+        case BLE_EVBLEMSGID_DISCONNECT
+        	GPIOWRITE(11,1)	// Writes "1" on port GPIO 11 (Module not in use with external device)
+        	TimerCancel(2)
+            StartAdvertising()
+            
+        case else
+    endselect
+ 
+ENDFUNC 1
+
+//==============================================================================
+//handler to service an rx/tx event
+//==============================================================================
+FUNCTION HandlerBridge() AS INTEGER
+ // transfer data between VSP and UART ring buffers
+ BleVspUartBridge()
+ TimerCancel(2)
+ TimerStart(2,timeOutNoEventData,0) //Allow 5 minutes time for wait for comms if over then break the connection
+ENDFUNC 1
+//==============================================================================
+//handler to service an tx event on UART and Virual Serial PORT
+//==============================================================================
+FUNCTION HandlerUARTTXEMPTY() AS INTEGER
+IF !flagUART THEN
+
+ELSE
+	BleVspUartBridge()
+	TimerCancel(2)
+	TimerStart(2,timeOutNoEventData,0) //Allow 5 minutes time for wait for comms if over then break the connection
+ENDIF
+
+ENDFUNC 1
+//==============================================================================
+//handler to service an rx event on UART and Virual Serial PORT
+//==============================================================================
+FUNCTION HandlerUARTRX() AS INTEGER
+IF !flagUART THEN
+	TimerStart(0,1000,0) //Allow enough time for data to reach rx buffer
+ELSE
+	BleVspUartBridge()
+	TimerCancel(2)
+	TimerStart(2,timeOutNoEventData,0) //Allow 5 minutes time for wait for comms if over then break the connection
+ENDIF
+
+ENDFUNC 1
+
+//==============================================================================
+//handler Timer0
+//==============================================================================
+FUNCTION HndlrTmr0()
+	DIM strName$
+	strName$=""
+	strLengthRx=UartRead(strName$)
+	
+	StrShiftLeft(strName$,9)
+	strName$=DeviceName+StrSplitLeft$(strName$,6)
+	
+	strDeviceName$=strName$
+	flagUART=1
+ENDFUNC 0
+//==============================================================================
+//handler Timer1
+//==============================================================================
+FUNCTION HndlrTmr1()
+	DIM rc
+	rc=UartWrite(strDeviceName$)
+ENDFUNC 1
+//==============================================================================
+//handler Timer2
+//==============================================================================
+FUNCTION HndlrTmr2()
+	DIM rc
+ 	rc=BleDisconnect(conHndl)
+ENDFUNC 1
+//=============================================================================
+//FUNCTION HandlerEVGPIO() AS
+//ONEVENT EVDETECTCHANn 	CALL HandlerDETGPIO
+
+
+ONEVENT EVVSPRX 		CALL HandlerBridge
+ONEVENT EVUARTRX 		CALL HandlerUARTRX
+ONEVENT EVVSPTXEMPTY 	CALL HandlerBridge
+ONEVENT EVUARTTXEMPTY 	CALL HandlerUARTTXEMPTY
+ONEVENT EVBLEMSG 		CALL HndlrBleMsg
+ONEVENT EVTMR0 			CALL HndlrTmr0
+ONEVENT EVTMR1 			CALL HndlrTmr1
+ONEVENT EVTMR2 			CALL HndlrTmr2
+
+
+flagUART=0
+OnStartup()
+WAITEVENT
+
+OnStartup()
+WAITEVENT
+

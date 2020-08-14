@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [TEL-GPRS-BT-V1_0 Rev1.PcbDoc]
+   Generated File[TEL-GPRS-BT-V1_0 Rev1-Plated.TXT]
+   Generated File[TEL-GPRS-BT-V1_0 Rev1-NonPlated.TXT]
+   Generated File[TEL-GPRS-BT-V1_0 Rev1.LDP]
+   Generated File[TEL-GPRS-BT-V1_0 Rev1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:33:20 On 03/21/2018

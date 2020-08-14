@@ -1,0 +1,70 @@
+Field=Description~String~Description~75|Field=Designator~String~Designator~75|Field=Manufacturer Part Number~String~Manufacturer Part Number~75|Field=Quantity~Integer~Quantity~75|Field=Supplier 1~String~Supplier 1~75|Field=Supplier 2~String~Supplier 2~20|Field=Supplier 3~String~Supplier 3~20|Field=Supplier Part Number 1~String~Supplier Part Number 1~125|Field=Supplier Part Number 2~String~Supplier Part Number 2~20|Field=Supplier Part Number 3~String~Supplier Part Number 3~20|Field=Supplier Stock 1~Integer~Supplier Stock 1~115|Field=Supplier Unit Price 1~Float~Supplier Unit Price 1~59|Field=Value~String~Value~20|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~PCB_Tel_GPRS_BT-V1_Rev1.PrjPcb|ReportField=ProjectFullPath~D:\Documents and Settings\Administrator\Desktop\Telemetria GPRS Bluetoot MP V1_0 Rev1\PCB_Tel_GPRS_BT-V1_Rev1.PrjPcb|ReportField=Title~Bill of Materials For Project [PCB_Tel_GPRS_BT-V1_Rev1.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~132|ReportField=ReportTime~13:25:18|ReportField=ReportDate~03/26/2018|ReportField=ReportDateTime~03/26/2018 13:25:18|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~M. en C. Fernando Bolaños|ReportField=Author~M. en C. José Alberto Balderas Castillo (CID)|ReportField=CheckedBy~M. en C. José Alberto Balderas Castillo (CID)|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=FechaAprobacion~16-Junio-2015|ReportField=FechaDiseno~02-Junio-2015|ReportField=FechaRevision~05-Junio-2015|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=NombreBloque~Diagrama a Bloques|ReportField=NombreProyecto~Telemetria GPRS de Bajo Consumo de Energia|ReportField=NombreTarjeta~TELCOMGPRS-v1|ReportField=NumeroDeHoja~1 de 7|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~v1|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=TamanoHoja~Carta|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~PCB_Tel_GPRS_BT-V1_Rev1.PrjPcb|ReportField=DataSourceFullPath~D:\Documents and Settings\Administrator\Desktop\Telemetria GPRS Bluetoot MP V1_0 Rev1\PCB_Tel_GPRS_BT-V1_Rev1.PrjPcb
+SWITCH SLIDE DIP SPST 100MA 6V|U12SW2|CHS-02TA|1|||||||||
+No Aplica|SP1, SP2, SP3, SP4, T1, T2, T3, T4, U6B1, U10B_A1, U10B_A2, U10B_B1, U10B_B2||13|||||||||
+SWITCH TACTILE SPST-NO 0.02A 15V SMT|U12SW1|EVQ-Q2K03W|1|Digi-Key|||P12943SCT-ND|||108980|0.30|
+CAP TANTALUM 10UF 6.3V 10% SMD|U12C1|T491A106K010AT|1|Digi-Key|||399-3684-1-ND|||927461|0.41|10uF
+RES SMD 4.7K OHM 5% 1/8W 0805|U12R1, U12R2, U12R3, U12R4, U12R5, U12R6, U12R7|ERJ-6GEYJ472V|7|Digi-Key|||P4.7KACT-ND|||279295|0.10|4.7KO
+IC SWITCH DUAL SPDT 10MSOP|U11|ADG836YRMZ|1|Digi-Key|||ADG836YRMZ-ND|||1596|3.48|
+|U12|BL652-SA-01-T/R|1|Digi-Key|Mouser|Newark|BL652-SA-01-CT-ND|239-BL652-SA-01|01AC1558|11504|7.45|
+CAP CER 0.22UF 16V 10% X7R 0603|U5C1|C0603C224K4RAC7867|1|Digi-Key|||399-5619-1-ND|||56320|0.40|0.22uF
+CAP CER 0.22UF 50V 10% X7R 1206|U4C2|CL31B224KBFNNNE|1|Digi-Key|||1276-1106-1-ND|||27734|0.13|0.22uF
+RES SMD 1.2K OHM 1% 1/8W 0805|U2R1|ERJ-6ENF1201V|1|Digi-Key|||P1.20KCCT-ND|||47666|0.10|1.2KO
+RES SMD 100K OHM 5% 1/2W 0805|U6R1, U6R3|ERJ-P06J104V|2|Digi-Key|||P100KADCT-ND|||65858|0.12|100KO
+CAP TANT 100UF 16V 10% 2917|U4C4|T495D107K016AHE125|1|Digi-Key|||399-8498-1-ND|||2635|1.94|100uF
+VISHAY  CRCW080510M0JNEA  Resistencia SMD Chip, Película Gruesa, 10 Mohm, 150 V, 0805 [2012 Metric], 125 mW, ± 5%|U5R3|CRCW080510M0JNEA|1|Digi-Key|||541-10MACT-ND|||39217|0.10|10MO
+CAP CER 10PF 50V 10% NP0 1206|U4C3|C1206C100K5GACTU|1|Digi-Key|||399-9297-1-ND|||4474|0.34|10pF
+CAP CER 10UF 50V Y5V 1210|U1C1, U1C2, U1C3|CC1210ZKY5V9BB106|3|Digi-Key|Mouser||311-3470-1-ND|603-CC121ZKY5V9BB106||3|0.51|10uF
+RES SMD 1M OHM 0.1% 1/8W 0805|U4R1|ERA-6AEB105V|1|Digi-Key|||P1MDACT-ND|||334006|0.36|1MO
+VISHAY  CRCW08051M00FKEB  Resistencia SMD Chip, Película Gruesa, 1 Mohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%|U5R2|CRCW08051M00FKEA|1|Digi-Key|Newark||541-1.00MCCT-ND|52K9759||225577|0.10|1MO
+CAP CER 2.2UF 50V 10% X5R 1206|U4C1|UMK316BJ225KD-T|1|Digi-Key|||587-2402-1-ND|||327614|0.28|2.2uF
+RES 2.70K OHM 1/8W 1% 0805 SMD|U1R2|CRCW08052K70FKEA|1|Digi-Key|||541-2.70KCCT-ND|||22212|0.10|2.7KO
+TVS DIODE 18V 29.2V SMF|U3TVS1|SMF18A-E3-08|1|Digi-Key|||SMF18A-E3-08CT-ND|||21683|0.48|
+CAP 220MF -20% +80% 3.3V SMD|U8C2|DSK-3R3H224U-HL|1|Digi-Key|||604-1020-1-ND|||68064|1.89|220mF
+CAP CERAMIC 220PF 50V NP0 1206|U1C4|C1206C221K5GACTU|1|Digi-Key|||399-1208-1-ND|||10522|0.37|220pF
+CAP 22000PF 50V CERAMIC X7R 1206|U1C5|C1206C223K5RACTU|1|Digi-Key|||399-1242-1-ND|||7065|0.22|22nF
+|U1R3|ERA-6AEB3162V|1|Digi-Key|||P31.6KDACT-ND|||30915|0.36|24KO
+RES SMD 3.3K OHM 5% 1/8W 0805|U6R4, U6R5, U6R6|ERJ-6GEYJ332V|3|Digi-Key|||P3.3KACT-ND|||489783|0.10|3.3KO
+CRYSTAL 32.7680KHZ 12.5PF SMD  -40°C ~ 85°C|U6X1|FC-135 32.768KA-A3|1|Digi-Key|||SE2413CT-ND|||123566|0.59|
+TVS 33 VOLT 600 WATT UNI-DIR TRANZORB|U1TVS1|P6KE33A|1|Digi-Key|||P6KE33ALFCT-ND|||6042|0.56|
+YAGEO  RC0603JR-07390RL  Resistencia SMD Chip, Película Gruesa, Serie RC, 390 ohm, 50 V, 0603 [1608 Metric], 100 mW, ± 5%|U5R4|RC0603JR-07390RL|1|Digi-Key|||311-390GRCT-ND|||600660|0.10|390O
+VISHAY  CRCW08054M22FKEA  Resistencia SMD Chip, Película Gruesa, 4.22 Mohm, 150 V, 0805 [2012 Metric], 125 mW, ± 1%|U5R1|CRCW08054M22FKEA|1|Digi-Key|Mouser|Newark|541-4.22MCCT-ND|71-CRCW08054M22FKEA|53K0223|0|0.10|4.22MO
+RES 4.7K OHM 1/4W 5% 1206 SMD|U1R1|CRCW12064K70JNEA|1|Digi-Key|||541-4.7KECT-ND|||164574|0.10|4.7KO
+470µF 50V Aluminum Capacitors Radial, Can 27 mOhm @ 100kHz 5000 Hrs @ 105°C|U3C1, U3C2|ESY477M050AL3AA|2|Digi-Key|||399-6129-ND|||698|1.09|470uF
+RES SMD 604K OHM 0.1% 1/8W 0805|U4R2|RT0805BRD07604KL|1|Digi-Key|||YAG1941CT-ND|||3307|0.39|604KO
+PANASONIC ELECTRONIC COMPONENTS  ERJ-6GEYJ821V  Resistencia SMD Chip, Película Gruesa, 820 ohm, 150 V, 0805 [2012 Metric], 125 mW, ± 5%|U6R7, U13R2|ERJ-6GEYJ821V|2|Digi-Key|Newark||P820ACT-ND|65T8844||147784|0.10|820O
+IC EEPROM 1MBIT 1MHZ 8SOIC I2C|U7|CAT24M01WI-GT3|1|Digi-Key|||CAT24M01WI-GT3OSCT-ND|||6493|1.33|
+DIODE SCHOTTKY 30V 100MA SOD323|U4D2|CMDSH-3 TR|1|Digi-Key|||CMDSH-3 CT-ND|||||
+PANASONIC ELECTRONIC COMPONENTS  DZ2J030M0L  DIODE, ZENER, 3.0V, SMINI2-F5-B|U5D1|DZ2J030M0L|1|Digi-Key|||DZ2J030M0LCT-ND|||17970|0.21|
+IC REG SW 2A STEPDOWN 8-SOIC|U1|L5973ADTR|1|Digi-Key|||497-5328-1-ND|||2227|2.64|
+RELAY OPTOMOS 1.8A SPST-NO 6-SMD|U2|LCA715STR|1|Digi-Key|Mouser||CLA309CT-ND|849-LCA715STR||0|6.19|
+Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 3A DDPAK/TO-263-3|U3|LM1085ISX-3.3/NOPB|1|Digi-Key|||LM1085ISX-3.3/NOPBCT-ND|||5299|2.03|
+DIODE SCHOTTKY 40V 500MA SOD123|U4D1|MBR0540-TP|1|Digi-Key|||MBR0540TPMSCT-ND|||139287|0.41|
+Mini PCIe|U13|2041119-1|1|Digi-Key|||A108265CT-ND|||5266|0.83|
+IC MCU 16BIT 48K FLASH 64-LQFP|U6|MSP430F1611IPM|1|Digi-Key|||296-17205-ND|||1815|17.27|
+LINEAR TECHNOLOGY  LT1934  IC REG BUCK ADJ 0.3A SOT23-6|U4|LT1934|1|Digi-Key|||LT1934ES6#TRMPBFCT-ND|||140|5.25|
+IC LINE DRVR/RCVR RS232 20-TSSOP|U10|SN75C3223EPWR|1|Digi-Key|||296-21078-1-ND|||5338|2.88|
+DIODE SCHOTTKY 40V 3A SMC|U1D2|B340-13-F|1|Digi-Key|||B340-FDICT-ND|||125400|0.39|
+DIODE SCHOTTKY 60V 5A SMC|U1D1|B560C-13-F|1|Digi-Key|||B560C-FDICT-ND|||209434|0.55|
+10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805|U6R2, U7R1, U7R2, U8R1, U8R2, U8R3, U9R1, U9R2, U9R3, U9R4, U9R5, U9R6, U13R1, U13R3|RC0805JR-0710KL|14|Digi-Key|||311-10KARCT-ND|||4169251|0.019|10KO
+AVX - TACU105M016X - CAP TANT 1UF, 16V, 7.5OHM, 0805|U6C1, U6C2, U6C3, U6C4, U12C2|TAJR105K010RNJ|5|Digi-Key|||478-3278-1-ND|||23374|1.02|1uF
+DIODE SCHOTTKY 1A 20V SOD-323|U8D1, U12D1, U12D2|NSR0320MW2T1G|3|Digi-Key|||NSR0320MW2T1GOSCT-ND|||93230|0.39|
+'6 Position Card Connector Micro SIM Surface Mount, Right Angle Gold|U14_A|0786463001|1|Digi-Key|Mouser||WM9364CT-ND|538-78646-3001||0|1.08|
+RES SMD 15K OHM 1% 1/8W 0805|U14R1|ERJ-6ENF1502V|1|Digi-Key|||P15.0KCCT-ND|||295310|0.10|15KO
+RES SMD 22 OHM 1% 1/8W 0805|U14R2, U14R3, U14R4|ERJ-6ENF22R0V|3|Digi-Key|||P22.0CCT-ND|||112055|0.10|22O
+33pF 50V Ceramic Capacitor C0G, NP0 0805 (2012 Metric) 0.079" L x 0.049" W (2.00mm x 1.25mm)|U14C2, U14C3, U14C4, U14C5|C0805C330J5GACTU|4|Digi-Key|||399-1115-1-ND|||1138|0.10|33pF
+6 Position Card Connector SIM Card Surface Mount, Right Angle Gold|U14_B|7111S2015X02LF|1|Digi-Key|||609-1401-1-ND|||10341|1.16|
+TVS DIODE 5V 12.5V SC70-6|U14TVS1|SMF05C.TCT|1|Digi-Key|||SMF05CCT-ND|||31588|0.91|
+CAP CERAMIC 0.1UF, 25V, X7R, 0603|U6C5, U7C1, U8C1, U9C1, U10C1, U10C2, U10C3, U10C4, U10C5, U11C1, U14C1|CGJ3E2X7R1E104K080AA|11|Digi-Key|||445-8129-1-ND|||2509|0.176|0.1uF
+MICRO CRYSTAL - RV-3029-C2 OPTION B - REAL-TIME-CLOCK, SMD, I2C, 32.768KHZ|U8|RV-3029-C2|1|Newark|Mouser||19P2786|428-202115-MG01||||
+7X-1.8432MBC-T -  Oscilador, 1.8432 MHz, 100 ppm, SMD, 5mm x 3.2mm, CMOS, 3.3 V, Serie 7X|U6X2|7X-1.8432MBC-T|1|Newark|||29X6515|||||
+Capacitor|U1C6|ECA-1EM331B|1|Newark|Mouser||48W7648|667-ECA-1EM331B||||330uF
+KINGBRIGHT  L-154A4SURKQBDZGW  LED, RGB, Rojo, Verde, Azul, Through Hole, T-1 3/4 (5mm), 60 °, Abovedada, R 20mA, G 20mA, B 20mA, Common Cathode|U6LED1|L-154A4SURKQBDZGW|1|Newark|||66W1973|||||
+Female SMT Straight Connector with Latch and with Polarization WR-MM 8-Pin|U12TAG1|690 367 290 876|1|Wurth Elektronik|||690 367 290 876|||||
+WE-PD SMD Shielded Power Inductor 100uH|U1L1|74477020|1|Wurth Elektronik|||74477020|||||100µH
+WE-PD2A SMD Power Inductor|U4L1|784774133|1|Wurth Elektronik|||784774133|||||33µH
+2.54mm THT Pin Header WR-PHD 3 terminales|JMP Vcc|613 003 111 21|1|Wurth Elektronik|||613 003 111 21|||||
+Female SMT Straight Connector with Latch and with Polarization WR-MM 14-Pin|U6_TAG1|690 367 291 476|1|Wurth Elektronik|||690 367 291 476|||||
+FERRITE BEAD 1000 OHM .20A 1206|U10L1, U10L2, U10L3, U10L4|74279214|4|Wurth Elektronik|Digi-Key||74279214|732-1627-1-ND||||450 mO
+WL-SMCW SMD mono-color chip LED waterclear 0805 Green|U6LED2, U13D1|150080GS75000|2|Wurth Elektronik|Digi-Key|Newark|150080GS75000|732-4983-1-ND|95W3800|||
+10 Position Wire to Board Terminal Block Horizontal with Board 0.200" (5.08mm) Through Hole|PWR_RS-232_CONN|6912141100xx|1|Wurth Elektronik|||6912141100xx|||||
+WR-CRD Micro SD_Hinge / CONN MICRO SD CARD HINGED TYPE|U9|693072010801|1|Wuth Elekronik|Digi-Key||693072010801|732-3820-1-ND||||

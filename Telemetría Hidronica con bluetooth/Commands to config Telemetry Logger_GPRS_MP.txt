@@ -1,0 +1,259 @@
+Solicitud numero de serie "HRID"
+HRID;2701150000;18\n\r
+48 52 49 44 3B 32 37 30 31 31 35 30 30 30 30 3B 31 38 0A 0D
+------------------------------------------------------------------------
+Solicitud de confirmación de número de serie "HRID"
+HRID;2701150002;16\n\r
+48 52 49 44 3B 32 37 30 31 31 35 30 30 30 32 3B 31 36 0A 0D
+------------------------------------------------------------------------
+Cambia el tiempo de recolección de datos del medidor para logger local (memoria SD)"HWLT"
+Indice de la tabla de tiempos de recolección de datos del medidor en 2 caracteres
+Ejemplo para configurar a 15 min, con recolector Habilitado
+HWLT;2701150002;01;E;42\n\r
+48 57 4C 54 3B 32 37 30 31 31 35 30 30 30 32 3B 30 31 3B 45 3B 34 32 0A 0D
+HWLT:OK;03
+------------------------------------------------------------------------
+Solicita lectura de tiempo de recolección y estado del logger local (memoria SD) "HRLT"
+HRLT;2701150002;01\n\r
+48 52 4C 54 3B 32 37 30 31 31 35 30 30 30 32 3B 30 31 0A 0D
+HRLT:03;01;E;45
+03: Indice de la tabla del tiempo de recolección
+01: Valor real en minutos u horas (respecto al índice anterior)
+E: Habilitado
+------------------------------------------------------------------------
+Cambia el tiempo de recolección de datos del medidor para logger GPRS "HWLG"
+Indice de la tabla de tiempos de recolección de datos del medidor en 2 caracteres
+Ejemplo para configurar a 15 min, con recolector Habilitado
+
+HWLG;2701150002;01;E;53\n\r
+48 57 4C 47 3B 32 37 30 31 31 35 30 30 30 32 3B 30 31 3B 45 3B 34 32 0A 0D
+HWLT:OK;03
+------------------------------------------------------------------------
+Solicita lectura de tiempo de recolección y estado del logger GPRS "HRLG"
+HRLG;2701150002;14\n\r
+48 52 4C 47 3B 32 37 30 31 31 35 30 30 30 32 3B 31 34 0A 0D
+HRLG:03;01;E;58
+03: Indice de la tabla del tiempo de recolección
+01: Valor real en minutos u horas (respecto al índice anterior)
+E: Habilitado
+------------------------------------------------------------------------
+Solicitud de horario del sistema "HRDT"
+HRDT;2701150002;09\n\r
+48 52 44 54 3B 32 37 30 31 31 35 30 30 30 32 3B 30 39 0A 0D
+HRDT:30112017123052-06;21
+HRDT:30112017123131-06;25
+------------------------------------------------------------------------
+Cambio a la fecha y hora local "HWDT"
+DDMMYYYYhhmmss(+/-)zz
+(+0 - +23) and (-1 to -23)
+HWDT;2701150002;29112017005950-06;1C\n\r
+48 57 44 54 3B 32 37 30 31 31 35 30 30 30 32 3B 32 39 31 31 32 30 31 37 30 30 35 39 35 30 2D 30 36 31 43 0A 0D
+HWDT:OK;16
+
+HWDT;2701150002;21022018125920-06;1B\n\r
+
+1D
+
+------------------------------------------------------------------------
+Solicita DNS y IP PORT del servidor de datos a conectarse "HRCD"
+HRCD;2701150002;20\n\r
+48 52 43 44 3B 32 37 30 31 31 35 30 30 30 32 3B 32 30 0A 0D
+HRCD:grpshost.tzo.com;2007;35
+------------------------------------------------------------------------
+Cambio de DNS e IP del servidor de datos a conectarse "HWCD"
+DNS: 1 a 39 caracteres
+IP: 1 a 6 caracteres
+
+HWCD;2701150002;www.svisthorsky.com;80;7C\n\r
+48 57 43 44 3B 32 37 30 31 31 35 30 30 30 32 3B 77 77 77 2E 73 76 69 73 74 68 6F 72 73 6B 79 2E 63 6F 6D 3B 38 30 3B 42 46 0A 0D
+HWCD:OK;1E
+
+HWCD;2701150002;www.gprshost.tzo.com;2007;51\n\r
+HWCD:OK;1E
+
+HWCD;2701150002;gprshost.tzo.com;2007;0A\n\r
+HWCD:OK;1E
+
+HWCD;2701150002;gprshost.tzo.com;2008;07\n\r
+HWCD:OK;1E
+
+HWCD;2701150002;gprshost.tzo.com;2009;08\n\r
+HWCD:OK;1E
+------------------------------------------------------------------------
+Solicitud de APN, Usuario Y Password del proveedor de servico de datos de red celular "HRSP"
+HRSP;2701150002;1C\n\r
+48 52 53 50 3B 32 37 30 31 31 35 30 30 30 32 3B 31 43 0A 0D
+HRSP:internet.itelcel.com;webgprs;webgprs2002;1D
+------------------------------------------------------------------------
+"HWSP"
+------------------------------------------------------------------------
+Solicita numero de Alarmas para envío de información via GPRS "HRAN"
+HRAN;2701150002;18\n\r
+48 52 41 4E 3B 32 37 30 31 31 35 30 30 30 32 3B 31 38 0A 0D
+HRAN:24;13
+------------------------------------------------------------------------
+Cambio a la cantidad de alarmas para envío de información vía GPRS "HWAN"
+00-24
+HWAN;2701150002;00;2A\n\r
+48 57 41 4E 3B 32 37 30 31 31 35 30 30 30 32 3B 30 30 3B 32 41 0A 0D
+HWAN:OK;16
+
+HWAN;2701150002;24;30\n\r
+48 57 41 4E 3B 32 37 30 31 31 35 30 30 30 32 3B 32 34 3B 33 30 0A 0D
+HWAN:OK;16
+------------------------------------------------------------------------
+Solicitud de horario de una alarma en especifico por medio del índice (0-23) "HRAR"
+HRAR;2701150002;01;32\n\r
+48 52 41 52 3B 32 37 30 31 31 35 30 30 30 32 3B 30 31 3B 33 32 0A 0D
+HRAR:0100;0A
+------------------------------------------------------------------------
+Cambio de horario de la alarma especificada en registros 0 a 23 "HWAR"
+rrhhmm
+HWAR;2701150002;011610;33\n\r
+48 57 41 52 3B 32 37 30 31 31 35 30 30 30 32 3B 30 31 31 36 31 30 3B 33 33 0A 0D
+HWAR:OK;16
+
+HWAR;2701150002;010100;36\n\r
+48 57 41 52 3B 32 37 30 31 31 35 30 30 30 32 3B 30 31 30 31 30 30 3B 33 36 0A 0D
+HWAR:OK;16
+------------------------------------------------------------------------
+Solicitud de lectura de número de serie del medidor
+HRFS;2701150002;0E\n\r
+
+HRFS:15082005;06
+------------------------------------------------------------------------
+Solicita un bloque de la memoria SD
+HRMB;2701150002;NNNNNNNN;<CRC><0x0D><0x0A>
+NNNNNNNN: Número en hexadecimal del número de bloque de la memoria SD a leer
+
+12
+
+HRMB;2701150002;00009520;23\n\r
+HRMB;2701150002;00009521;24\n\r
+HRMB;2701150002;00009522;21\n\r
+HRMB;2701150002;00009523;22\n\r
+HRMB;2701150002;00009524;27\n\r
+HRMB;2701150002;00009525;28\n\r
+HRMB;2701150002;00009526;25\n\r
+HRMB;2701150002;00009527;26\n\r
+HRMB;2701150002;00009528;2B\n\r
+HRMB;2701150002;00009529;2C\n\r
+HRMB;2701150002;0000952A;54\n\r
+HRMB;2701150002;0000952B;51\n\r
+HRMB;2701150002;0000952C;52\n\r
+HRMB;2701150002;0000952D;57\n\r
+HRMB;2701150002;0000952E;58\n\r
+HRMB;2701150002;0000952F;55\n\r
+
+13
+
+HRMB;2701150002;00009530;24\n\r
+HRMB;2701150002;00009531;23\n\r
+HRMB;2701150002;00009532;22\n\r
+HRMB;2701150002;00009533;21\n\r
+HRMB;2701150002;00009534;28\n\r
+HRMB;2701150002;00009535;27\n\r
+HRMB;2701150002;00009536;26\n\r
+HRMB;2701150002;00009537;25\n\r
+HRMB;2701150002;00009538;2C\n\r
+HRMB;2701150002;00009539;2B\n\r
+HRMB;2701150002;0000953A;53\n\r
+
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+
+24224 (0x5EA0) File name for Jan 2018
+38336 (0x95C0) Start Data January 2018
+
+63
+
+HRMB;2701150002;000095C0;54\n\r
+HRMB;2701150002;000095C1;53\n\r
+HRMB;2701150002;000095C2;52\n\r
+HRMB;2701150002;000095C3;51\n\r
+HRMB;2701150002;000095C4;58\n\r
+HRMB;2701150002;000095C5;57\n\r
+HRMB;2701150002;000095C6;56\n\r
+HRMB;2701150002;000095C7;55\n\r
+HRMB;2701150002;000095C8;5C\n\r
+HRMB;2701150002;000095C9;5B\n\r
+HRMB;2701150002;000095CA;23\n\r
+HRMB;2701150002;000095CB;22\n\r
+HRMB;2701150002;000095CC;21\n\r
+HRMB;2701150002;000095CD;28\n\r
+HRMB;2701150002;000095CE;27\n\r
+HRMB;2701150002;000095CF;26\n\r
+
+------------------------------------------------------------------------
+Solicita la lectura de punto de localización (Latitud y Longitud)
+HRLC;2701150002;18
+
+
+------------------------------------------------------------------------
+Escribe punto de localización del equipo en Latitud y Longitud
+HWLC;2701150002;+19.365887;-99.185639;1C
+14
+------------------------------------------------------------------------
+Consulta el RFC asociado a la telemetría
+HRNC;270115002;16
+------------------------------------------------------------------------
+Escribe en telemetría el regitro para el RFC asociado a la telemetría
+HWNC;2701150002;HID950704EN7;5E
+
+------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////
+------------------------------------------------------------------------
+Lectura del registro del número de serie externo del medidor almacenado en la telemetría
+HRNE;2701150002;14
+------------------------------------------------------------------------
+Escritura del número de serie externo del medidor a almacenar en el registro correspondiente en la telemetría
+HWNE;2701150002;0812234;
+------------------------------------------------------------------------
+Lectura del registro del identificador de Medidor o Sistema de Medición configurado en la telemetría
+HRIS;2701150002;03
+------------------------------------------------------------------------
+Escritura del registro del identiificador de Medidor o Sistema de Medición a configurar en la telemetría
+HWIS;2701150002;0812234;
+------------------------------------------------------------------------
+Lectura del registro del identificador de Unidad Verificadora
+HRUV;2701150002;1C
+------------------------------------------------------------------------
+Escritura del registro del identificador de la Unidad Verificadora
+HWUV;2701150002;XXXX;
+
+XXXXX: ID Unidad Verificadora
+
+HWUV;2701150002;0862;2A
+
+------------------------------------------------------------------------
+Lectura del registro del password de Administrador del sistema de Telemetría
+HRPW;2701150002;20
+------------------------------------------------------------------------
+Escritura del registro del password de Administrador del sistema de Telemetría
+HWPW;2701150002;12234;
+------------------------------------------------------------------------
+Solicitud de Evaluación y Confrmación del password de Administrador del sistema de Telemetría
+Commando;No. Serie Logico; 5 dígitos ASCII de passowrd a evaluar
+HRPA;2701150002;08122;0C
+HRPA;2701150002;19568;02
+------------------------------------------------------------------------
+Borrar una carpeta con el año especificado.
+Formato del añoa a borrar: MM/YYYY
+HWMC;2701150002;01/2000;05
+HWMC;2701150002;01/2008;0D
+------------------------------------------------------------------------
+// Requerimiento de Información y envío del mismo vía GPRS hecho por la unidad verificadora.
+(Adiciona registro de la unidad verificadora) Una vez enviado el comando y haber contestado con "OK", se debe
+de realizar la desconexión inmediata de la comunicación Bluetooth
+HWUR:2701150002;XXXXXX;
+XXXXXX: ID Unidad Verificadora
+
+HWUR;2701150002;0862;2E
+
+------------------------------------------------------------------------
+HR;2701150002;18
+HW;2701150002;1D
+
+23096
+23112
+24224
+38336

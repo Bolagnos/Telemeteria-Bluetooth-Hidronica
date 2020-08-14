@@ -1,0 +1,28 @@
+Pasos para programar el dispositivo Bluetooth BL652 con el programa para uso en modo de puente UART
+
+1.- Establecer el jumper de nAutoRun a nivel alto (H) y oprimir el botón de reset del módulo bluetooth
+2.- Entrar a seleccionar el dispositivo por medio de la aplicación de Laird en la opción de Serial Bridge
+3.- En la lista debe de aparecer el dispositivo "LAIRD BL652" y conectarse al mismo, de otro modo vuelva al paso 1
+4.- En el campo de envío de datos, intoducir "AT" e ingresarlo con la tecla "send"
+5.- El dispositivo deberá de contestar "00"
+6.- Si el paso 5 es adecuado, oprimir desconectarse y pasar al siguiente paso, de otro modo pase al paso 16 o denuevo al 1
+7.- Oprima de nuevo el botón de reset del pin del módulo de bluetooth
+8.- En la aplicación de Laird entre a la opción OTA y oprima SCAN
+9.- Elija el componente "LAIRD BL652"
+10.- Selecione el archivo compilado del programa a descargar.
+11.- Oprima el botón "Download"
+12.- La aplicación comenzará a descargar el programa vía inalámbrica y deberá confirmar la descarga completa
+	enviando el mensaje "Success" en la etiqueta "App Status", sin no se descarga la información repita desde el paso 1.
+13.- Oprima el botón Disconnect de la aplicación.
+14.- Regrese el jumper de nAutorun a estado Bajo y oprima el botón de reset del módulo de bluetooth.
+15.- Oprima el botón "Scan" de la aplicación de Laird y se deberá de mostrar en la lista el servicio del dispositivo bluetooth
+	con el nombre "BT_MP_Hidronica" y con esto se finaliza el proceso.
+
+16.- Pase el jumper de la seña1 nAutoRun del módulo bluetooth a estado Bajo y oprima la señal RESET del mismo.
+17.- Selecione Scan en la aplicación de Laird y el dispositivov se debe de mostrar en la lista con el nombre "LAIRD BL652".
+18.- Seleccione el dispositivo para que la aplicación se conecte. Sino se conecta repita desde el paso 16.
+19.- Una vez conectado, envíe el mensaje "at" e ingreselo con el botón "send".
+20.- El dispositivo deberá de contestar "00".
+21.- Si el paso 20 es adecuado, oprimir desconectarse y pasar al siguiente paso, de otro modo pase al paso repetir desde el paso 1 o 16.
+22.- Continuar el proceso desde el paso 8.
+

@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=USB3410_RTS Pin=U12TAG1-6
+Added Pin To Net: NetName=USB3410_DTR Pin=U12TAG1-6

@@ -1,0 +1,18 @@
+Configurar Hyperterminmal a 115200 bps, 8 bits, 1 bit stop y sin paridad
+
+Después de recibir el mensaje "RDY", enviar los siguientes comandos, cada uno debe de reponder con el
+mensaje "OK"
+
+atv1
+ate0
+at+ipr=9600
+at+ipr=115200
+
+pasar Hyperterminal a 9600 bps,8 bits, 1 bit stop y sin paridad
+
+enviar el comando
+
+at&w
+
+Finalizar la configuración y cerrar hyperterminal
+

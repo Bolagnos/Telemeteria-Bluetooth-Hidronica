@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: TEL-GPRS-BT-V1_0 Rev1.PcbDoc   03/21/2018  11:33:19
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : TEL-GPRS-BT-V1_0 Rev1-Plated.TXT
+ASCII Non-Plated RoundHoles File : TEL-GPRS-BT-V1_0 Rev1-NonPlated.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        9.84mil (0.24994mm)      Round          159              30.61 Inch (777.49 mm)
+T2        11.81mil (0.29997mm)     Round          9                0.34 Inch (8.51 mm)
+T3        15.75mil (0.40005mm)     Round          2                0.32 Inch (8.18 mm)
+T4        27.56mil (0.70002mm)     Round          6                2.00 Inch (50.83 mm)
+T5        39.37mil (1mm)           Round          6                2.08 Inch (52.78 mm)
+T6        47.24mil (1.1999mm)      Round          4                1.04 Inch (26.41 mm)
+T7        51.18mil (1.29997mm)     Round          10               1.24 Inch (31.50 mm)
+T8        66.93mil (1.70002mm)     Round          1                0.00 Inch (0.00 mm)
+T9        102.36mil (2.59994mm)    Round          2                0.95 Inch (24.20 mm)
+T10       43.31mil (1.10007mm)     Round          1         NPTH   0.00 Inch (0.00 mm)
+T11       62.99mil (1.59995mm)     Round          1         NPTH   0.00 Inch (0.00 mm)
+T12       118.11mil (2.99999mm)    Round          4         NPTH   10.56 Inch (268.11 mm)
+---------------------------------------------------------------------------
+Totals                                            205              49.13 Inch (1248.01 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

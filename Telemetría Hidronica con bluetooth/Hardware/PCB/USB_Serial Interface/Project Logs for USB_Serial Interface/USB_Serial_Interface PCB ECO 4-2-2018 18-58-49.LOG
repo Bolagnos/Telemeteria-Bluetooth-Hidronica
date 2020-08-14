@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=3.3_VCC Pin=C7-1
+Added Pin To Net: NetName=3.3_VCC Pin=U2-5
+Added Pin To Net: NetName=3.3_VCC Pin=U12TAG1-7
+Change Net Name : Old Net Name=3.3_VCC New Net Name=3.3V_USB

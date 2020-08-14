@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>PanSatV1_0/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>211</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>938</ColumnWidth1><ColumnWidth2>250</ColumnWidth2><ColumnWidth3>62</ColumnWidth3></Build>
+    <TerminalIO/><Profiling><Enabled>0</Enabled></Profiling><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows></Debug-Log><Find-in-Files><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ColumnWidth0>554</ColumnWidth0><ColumnWidth1>72</ColumnWidth1><ColumnWidth2>872</ColumnWidth2></Find-in-Files></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-32485-10791</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>PanSatV1_0</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-31126-8769</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-17136-9850</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>1</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Bolagnos\Desktop\MPG2 GPRS V2.1 EC_Prog\Firmware\start.cpp</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>1902</SelStart><SelEnd>1902</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Bolagnos\Desktop\MPG2 GPRS V2.1 EC_Prog\Firmware\CGPRS.cpp</Filename><XPos>0</XPos><YPos>893</YPos><SelStart>36419</SelStart><SelEnd>36430</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Bolagnos\Desktop\MPG2 GPRS V2.1 EC_Prog\Firmware\CParallelPort.cpp</Filename><XPos>0</XPos><YPos>89</YPos><SelStart>1664</SelStart><SelEnd>1664</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Bolagnos\Desktop\MPG2 GPRS V2.1 EC_Prog\Firmware\CController.h</Filename><XPos>0</XPos><YPos>45</YPos><SelStart>1196</SelStart><SelEnd>1210</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Bolagnos\Desktop\MPG2 GPRS V2.1 EC_Prog\Firmware\CUART.cpp</Filename><XPos>0</XPos><YPos>84</YPos><SelStart>2680</SelStart><SelEnd>2680</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0090e548><key>iaridepm1</key></Toolbar-0090e548></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3><Row4><Sizes/></Row4><Row5><Sizes/></Row5><Row6><Sizes/></Row6></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>738</Bottom><Right>285</Right><x>-2</x><y>-2</y><xscreen>0</xscreen><yscreen>0</yscreen><sizeHorzCX>0</sizeHorzCX><sizeHorzCY>0</sizeHorzCY><sizeVertCX>202683</sizeVertCX><sizeVertCY>680772</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>305</Bottom><Right>1418</Right><x>-2</x><y>-2</y><xscreen>1420</xscreen><yscreen>307</yscreen><sizeHorzCX>1002824</sizeHorzCX><sizeHorzCY>282428</sizeHorzCY><sizeVertCX>190677</sizeVertCX><sizeVertCY>282428</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

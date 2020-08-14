@@ -1,0 +1,26 @@
+AT+CREG?
+AT+CREG=1
+
+AT+CGREG?
+AT+CGREG=1
+
+/************** TCP Client Connection List for UC20 module ***************/
+
+AT+QICSGP=1,1,"internet.itelcel.com","webgprs","webgprs2002",0 	// Configure Context
+AT+QIACT=1							// Activate PDP Context
+AT+QIACT?							// Return the list of the current Activated context an is IP address
+AT+QIOPEN=1,0,"TCP","gprshost.tzo.com",2006,0,0			// Start Socket Service <service type> "TCP" as client
+AT+QISEND=0
+
+/*************************************************************************/
+
+/************** UDP Client Connection List for UC20 module ***************/
+
+AT+QICSGP=1,1,"internet.itelcel.com","webgprs","webgprs2002",0
+AT+QIACT=1
+AT+QIACT?
+AT+QIOPEN=1,0,"TCP","gprshost.tzo.com",2007,0,2			// Start Socket Service <service type> "UDP" as client,<access mode>2 Transparent access mode
+
+
+/*************************************************************************/
+

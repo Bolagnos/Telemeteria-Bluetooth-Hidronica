@@ -1,0 +1,16 @@
+Added Component: Designator=T1(Tornillo)
+Added Component: Designator=T2(Tornillo)
+Added Component: Designator=T3(Tornillo)
+Added Component: Designator=T4(Tornillo)
+Added Pin To Net: NetName=NetSP1_1 Pin=T1-1
+Added Net: Name=NetSP1_1
+Added Pin To Net: NetName=NetSP2_1 Pin=T2-1
+Added Net: Name=NetSP2_1
+Added Pin To Net: NetName=NetSP3_1 Pin=T3-1
+Added Net: Name=NetSP3_1
+Added Pin To Net: NetName=NetSP4_1 Pin=T4-1
+Added Net: Name=NetSP4_1
+Added Member To Class: ClassName=USB_Serial_Interface Member=Component T1 
+Added Member To Class: ClassName=USB_Serial_Interface Member=Component T2 
+Added Member To Class: ClassName=USB_Serial_Interface Member=Component T3 
+Added Member To Class: ClassName=USB_Serial_Interface Member=Component T4 

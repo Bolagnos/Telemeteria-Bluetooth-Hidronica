@@ -1,0 +1,23 @@
+Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Manufacturer Part Number~String~Manufacturer Part Number~100|Field=Quantity~Integer~Quantity~100|Field=Supplier 1~String~Supplier 1~100|Field=Supplier 2~String~Supplier 2~100|Field=Supplier 3~String~Supplier 3~100|Field=Supplier Part Number 1~String~Supplier Part Number 1~100|Field=Supplier Part Number 2~String~Supplier Part Number 2~100|Field=Supplier Part Number 3~String~Supplier Part Number 3~100|Field=Value~String~Value~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~USB_Serial Interface.PrjPcb|ReportField=ProjectFullPath~D:\Documents and Settings\Administrator\Desktop\USB_Serial Interface\USB_Serial Interface.PrjPcb|ReportField=Title~Bill of Materials For Project [USB_Serial Interface.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~32|ReportField=ReportTime~13:33:41|ReportField=ReportDate~03/26/2018|ReportField=ReportDateTime~03/26/2018 13:33:41|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=PageSetup~Record=PageOptions:CenterHorizontal=True:CenterVertical=True:PrintScale=1.00:XCorrection=1.00:YCorrection=1.00:PrintKind=1:BorderSize=5000000:LeftOffset=0:BottomOffset=0:Orientation=2:PaperLength=1000:PaperWidth=1000:Scale=100:PaperSource=7:PrintQuality=-4:MediaType=1:DitherType=10:PaperKind=Letter 8.5 x 11in:PrintScaleMode=1|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~USB_Serial Interface.PrjPcb|ReportField=DataSourceFullPath~D:\Documents and Settings\Administrator\Desktop\USB_Serial Interface\USB_Serial Interface.PrjPcb
+CAP CER 1000PF 16V X7R 0603|C10, C14|0603YC102KAT2A|2|Digi-Key|||478-7933-1-ND|||0.001µF
+CAP CER 10000PF 16V X7R 0603|C9, C12|C0603C103K4RACTU|2|Digi-Key|||399-7841-1-ND|||0.01µF
+CAP CERAMIC 0.1UF, 25V, X7R, 0603|C1, C8, C11, C13|CGJ3E2X7R1E104K080AA|4|Digi-Key|||445-8129-1-ND|||0.1uF
+RES SMD 1.5K OHM 5% 0.4W 0805|R6|ESR10EZPJ152|1|Digi-Key|||RHM1.5KKCT-ND|||1.5KO
+RES SMD 100K OHM 0.1% 1/8W 0805|R5|ERA-6AEB104V|1|Digi-Key|||P100KDACT-ND|||100KO
+CAP TANT 1UF 10V 10% 0805|C6|TAJR105K010RNJ|1|Digi-Key|||478-3278-1-ND|||1uF
+CAP CER 22PF 25V C0G/NP0 0603|C4, C5|C0603C220K3GACTU|2|Digi-Key|||399-9030-1-ND|||22pF
+RES 32K OHM 0.1% 1/10W 0402|R2|TNPW040232K0BEED|1|Digi-Key|||541-2115-1-ND|||32KO
+CAP CER 33PF 100V C0G/NP0 0603|C2, C3|06031A330FAT2A|2|Digi-Key|||478-3688-1-ND|||33pF
+RES SMD 4.7K OHM 5% 1/8W 0805 |R11a|RC0805JR-074K7L|1|Digi-Key|||311-4.7KARCT-ND|||4.7KO
+CAP TANT 4.7UF 10V 10% 0805|C7|TAJR475K010RNJ|1|Digi-Key|||478-3280-1-ND|||4.7uF
+DIODE SCHOTTKY 1A 20V SOD-323|D1|NSR0320MW2T1G|1|Digi-Key|||NSR0320MW2T1GOSCT-ND|||
+10 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805|R3, R9, R10|RC0805JR-0710KL|3|Digi-Key|||311-10KARCT-ND|||10KO
+RES SMD 15K OHM 0.1% 1/4W 0805|R1|ERJ-PB6B1502V|1|Digi-Key|||P20726CT-ND|||15KO
+RES SMD 33 OHM 1% 1/8W 0805|R7, R8|RC0805FR-0733RL|2|Digi-Key|||311-33.0CRCT-ND|||33O
+RES SMD 90.9K OHM 0.1% 1/8W 0805|R4|ERA-6AEB9092V|1|Digi-Key|||P90.9KDACT-ND|||90.9KO
+TUSB3410|U1|TUSB3410IVF|1|Digi-Key|||296-16757-ND|||
+CRYSTAL 12.0000MHZ 18PF SMD|X1|CX3225GB12000P0HPQCC|1|Digi-Key|||1253-1168-1-ND|||12 MHz
+Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 100mA SOT-23-5|U2|TPS76933DBVT|1|Newark|Digi-Key||77C1165|296-2760-1-ND||
+Mini USB 2.0 Type B SMT Horizontal 5 Contacts WR-COM|J1|65100516121|1|Wurth Elektronik|Digi-Key||65100516121|732-2109-1-ND||
+Female SMT Straight Connector with Latch and with Polarization WR-MM 8-Pin|U12TAG1|690 367 290 876|1|Wurth Elektronik|||690 367 290 876|||
+WL-SMCW SMD mono-color chip LED waterclear 0805 Green|U13D1|150080GS75000|1|Wurth Elektronik|Digi-Key|Newark|150080GS75000|732-4983-1-ND|95W3800|
